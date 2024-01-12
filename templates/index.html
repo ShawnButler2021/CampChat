@@ -16,21 +16,36 @@
 
 
 	<body>
+		<h1 id="title"> Title </h1>
+		<hr/>
 
+		<!-- Contains all inputs -->
 		<div class="half" id="actions"> 
-			<form action="">
-				<input id="create-button" type="submit" value="Create Room"></input>
-			</form>
+			<div id="join-room" class="box">
+				<form action="\room">
+					<h1>Create Room</h1>
+					<hr/>
+
+					IP - <input type="text" name="ip-address"><br/>
+					Port - <input type="text" name="port-number"><br/>
+					Public - <input type="text" name="public"><br/>
+					Name - <input type="text" name="nickname"><br/>
+
+					<input type="submit" value="Create Room" class="button"></input>
+				</form>
+			</div>
 
 
 			<div id="join-room" class="box">
-				<form>
+				<form action="\room">
 					<h1>Join Room</h1>
 					<hr/>
 
 					IP - <input type="text" name="ip-address"><br/>
 					Port - <input type="text" name="port-number"><br/>
-					Name - <input type="text" name="nickname">
+					Name - <input type="text" name="nickname"><br/>
+
+					<input type="submit" value="Join Room" class="button"></input>
 				</form>
 			</div>
 
@@ -48,11 +63,9 @@
 		</div>
 
 
-		<div class="half" id="art">
+		<!-- Art side -->
+		<div class="half" id="art" style="border: solid black 3px">
 
 		</div>
-
 	</body>
-
-
 </html>
