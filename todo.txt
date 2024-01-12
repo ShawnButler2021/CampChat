@@ -1,9 +1,11 @@
-* make site layout
-  * create html prototype
-* create <title> html code
-* start css work
+* make a chatroom page prototype
+* make background art
+* make form tags work
 
 
+Design points
+* Campfire with javascript fire animation
+* Background = forest
 
 
 Things to remember
