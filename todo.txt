@@ -1,6 +1,8 @@
 * make a chatroom page prototype
 * make background art
 * make form tags work
+* add web app title on the index page
+
 
 
 Design points
