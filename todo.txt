@@ -1,0 +1,12 @@
+* make site layout
+  * create html prototype
+* create <title> html code
+* start css work
+
+
+
+
+Things to remember
+* methods need to be both GET and POST
+* templating
+* static files
