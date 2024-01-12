@@ -5,17 +5,16 @@
 
 	width: 10vw;
 	height:5vh;
-
-	background: none;
-	border: solid white 3px;
-	border-radius: 25%;
-	color: white;
 }
 #actions {
 
 }
 #art {
 
+}
+h1#title {
+	text-align: center;
+	font-size: 400%;
 }
 
 .box {
@@ -35,6 +34,13 @@
 	margin-top: 3vh;
 
 	display: inline-block;
+}
+.button {
+	background: none;
+	border: solid white 3px;
+	border-radius: 25%;
+	color: white;
+	padding: 1%;
 }
 
 
