@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- setting meta data --> 
+		<meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	    <!-- setting page title up -->
+		<title>Chatroom</title>
+		<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='campfire.jpg') }}">
+
+		<!-- linking css page -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+	</head>
+
+
+	<body>
+
+		<div class="half" id="actions"> 
+			<form action="">
+				<input id="create-button" type="submit" value="Create Room"></input>
+			</form>
+
+
+			<div id="join-room" class="box">
+				<form>
+					<h1>Join Room</h1>
+					<hr/>
+
+					IP - <input type="text" name="ip-address"><br/>
+					Port - <input type="text" name="port-number"><br/>
+					Name - <input type="text" name="nickname">
+				</form>
+			</div>
+
+
+			<div id="room-history" class="box">
+				<h1>Past Chatrooms</h1>
+				<hr/>
+			</div>
+
+
+			<div id="public-rooms" class="box">
+				<h1>Public Chatrooms</h1>
+				<hr/>
+			</div>	
+		</div>
+
+
+		<div class="half" id="art">
+
+		</div>
+
+	</body>
+
+
+</html>
