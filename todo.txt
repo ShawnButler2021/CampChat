@@ -1,14 +1,14 @@
 * make a chatroom page prototype
 * make background art
-* make form tags work
-* add web app title on the index page
-
+* finish the Create page
+* finish the Chatroom page
+* Input sanitize Join Room section
 
 
 Design points
 * Campfire with javascript fire animation
 * Background = forest
-
+* New title
 
 Things to remember
 * methods need to be both GET and POST
