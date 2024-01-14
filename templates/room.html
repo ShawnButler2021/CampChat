@@ -11,14 +11,51 @@
 		<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='campfire.jpg') }}">
 
 		<!-- linking css page -->
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="{{ url_for('static', filename='room.css') }}">
 	</head>
 
 
 	<body>
+		<!-- information header -->
+		<div id="info-header">
+			<h1>
+				Chatroom - 
+			</h1>
+			<form action="\">
+				<input type="submit" value="Quit Room" class="button"></input>
+			</form>
+
+			<hr/>
+		</div>
+
+
+		<div id="msg-board">
+			<div id="user-board">
+				user-board
+			</div>
+
+			<div id="chat-board">
+				chat-board
+			</div>
+
+
+			<hr/>
+
+
+			<div>
+			<form action="\room">
+				<input type="text" name="msg">
+				<input type="submit">
+			</form>
+		</div>
+		</div>
+		
+		
 		
 
-llll
+		<div class="art">
+		</div>
+
 	</body>
 
 
