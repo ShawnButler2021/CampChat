@@ -2,5 +2,57 @@ html {
 	font-family: 'Courier New', monospace;
 	color: white;
 	background: tan;
+	display: inline-block;
+}
+h1 {
+	margin-bottom: 0vh;
+}
+hr {
+	margin-bottom: 3vh;
+	width: 85%;
+	border: white 1px solid;
+}
+input {
+	background: none;
+	color: white;
+	margin-bottom: 0;
 }
 
+
+div#info-header {
+	max-width: 50vw;
+}
+div#msg-board {
+	max-width: 50vw;
+	min-height: 25vh;
+}
+div#user-board {
+	width: 25%;
+	min-height: 25vh;
+	display: inline-block;
+}
+div#chat-board {
+	width: 60%;
+	min-height: 25vh;
+	display: inline-block;
+	border-left: white solid 3px;
+	border-right: white solid 3px;
+	padding: 3%;
+	margin-bottom: 2.5%;
+}
+div.art {
+	border: black solid 3px;
+	width: 50vw;
+	height: 30vh;
+
+	margin-right: 0;
+	margin-left: 45vw;
+}
+
+.button {
+	background: none;
+	border: solid white 3px;
+	border-radius: 25%;
+	color: white;
+	padding: 1%;
+}
