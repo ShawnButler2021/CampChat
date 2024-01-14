@@ -3,15 +3,9 @@ from flask import Flask, render_template, request, redirect
 web_app = Flask(__name__)
 
 
-@web_app.route("/", methods=["POST", "GET"])
+@web_app.route("/")
 def index():
-  if request.method == "GET":
-    return render_template('index.html')
-
-  else:
-    if request.form["ip-address"] != None:
-      return redirect(for_url("room.html"))
-    return redirect(for_url("create_room.html"))
+  return render_template('index.html')
 
 
 @web_app.route("/create_room")
