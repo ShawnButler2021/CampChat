@@ -1,6 +1,4 @@
-* make a create_room page prototype
 * make background art
-* backend for the Create Room page
 * backend for the Chatroom page
 * Input sanitize Join Room section
 * Input sanitize Create Room section
