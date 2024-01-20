@@ -7,7 +7,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	    <!-- setting page title up -->
-		<title>Chatroom</title>
+		<title>CampChat</title>
 		<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='campfire.jpg') }}">
 
 		<!-- linking css page -->
@@ -16,13 +16,13 @@
 
 
 	<body>
-		<h1 id="title"> Title </h1>
+		<h1 id="title"> CampChat </h1>
 		<hr/>
 
 		<!-- Contains all inputs -->
 		<div class="half" id="actions"> 
 			<div id="create-room" class="box">
-				<form action="\create_room">
+				<form action="\room">
 					<h1>Create Room</h1>
 					<hr/>
 
@@ -41,9 +41,7 @@
 					<h1>Join Room</h1>
 					<hr/>
 
-					IP - <input type="text" name="ip-address"><br/>
-					Port - <input type="text" name="port-number"><br/>
-					Name - <input type="text" name="nickname"><br/>
+					Hash - <input type="text" name="room-hash"><br/>
 
 					<input type="submit" value="Join Room" class="button"></input>
 				</form>
