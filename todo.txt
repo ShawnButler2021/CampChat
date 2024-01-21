@@ -1,13 +1,13 @@
-* make background art
-* backend for the Chatroom page
+Application
+  Current
+* Accepting input from Create Room and Join Room
 * Input sanitize Join Room section
 * Input sanitize Create Room section
 
-
-Design points
-* Campfire with javascript fire animation
-* Background = forest
-* New title/app name
-
-Things to remember
-* methods need to be both GET and POST
+  Eventual
+* Get chat working
+* Create username/nickname
+  
+Art
+* Background art (forest)
+* Campfire art and animation
